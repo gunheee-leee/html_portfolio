@@ -1,0 +1,204 @@
+* {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+    margin: 0;
+    text-align: center; /* 전체 가운데 정렬 */
+}
+
+.nav-container{
+    position: fixed; /* 네비 바 상단 고정 */
+    margin: 0;
+    padding: 0;
+    display: flex; /* 네비 메뉴 줄바꿈 안함 */
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    list-style-type: none;
+    align-items: center; /* 내용 세로로 가운데 정렬 */
+}
+
+
+.nav-item-main{
+    font-size: 40px;
+    padding: 30px;
+    font-weight: bold;
+}
+
+
+.nav-item{
+    font-size: 30px;
+    padding: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-item-main a{
+    text-decoration-line: none; /* 클릭시 밑줄 생기는거 제거 */
+    color: white;
+}
+
+.nav-item a{
+    text-decoration-line: none; /* 클릭시 밑줄 생기는거 제거 */
+    color: white;
+}
+
+#main-introduce{
+    padding: 0px;
+    font-size: 25px;
+    margin: 0px;
+}
+
+#photo{
+    padding-top: 110px; /* 상단 고정 바 만큼 padding 적용 */
+    
+}
+
+#tech h1{
+    margin: 50px;
+}
+
+#front{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#front img{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 5%;
+    border: solid 2px black;
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+#front img:hover {
+	margin-bottom: -5px;
+	transition: .2s ease-in-out; /* 스무스하게 움직이게 */
+}
+
+#back{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#back img{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 5%;
+    border: solid 2px black;
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+#back img:hover {
+	margin-bottom: -5px;
+	transition: .2s ease-in-out; /* 스무스하게 움직이게 */
+}
+
+#data{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#data img{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 5%;
+    border: solid 2px black;
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+#data img:hover {
+	margin-bottom: -5px;
+	transition: .2s ease-in-out; /* 스무스하게 움직이게 */
+}
+
+#cooperation{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#cooperation img{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 5%;
+    border: solid 2px black;
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+#cooperation img:hover {
+	margin-bottom: -5px;
+	transition: .2s ease-in-out; /* 스무스하게 움직이게 */
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap; /* 이 옵션을 사용하면 화면 크기에 따라 줄 바꿈이 가능합니다 */
+    gap: 20px; /* 요소 사이의 간격을 지정할 수 있습니다 */
+    justify-content: center;
+  }
+
+.project{
+    width: 320px;
+    height: 320px;
+    background-size: cover;
+    border-radius: 5%;
+    border: solid 2px black;
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.project p{
+    font-size: 20px;
+}
+
+.project img{
+    width: 300px;
+    height: 200px;
+}
+
+.project img:hover{
+    transform: scale(1.15);
+    transition-duration: 0.5s;
+}
+
+#info-container {
+    display: flex;
+    gap: 70px; /* 요소 사이의 간격을 지정할 수 있습니다 */
+    justify-content: center; /* 가운데 정렬 */
+    align-items: center; /* 세로축 가운데 정렬 */
+    margin-bottom: 30px;
+}
+
+#info-container div{
+    width: 300px;
+}
+
+#info-container p{
+    font-size: 35px;
+    margin: 3px;
+}
+
+#end{
+    font-size: 50px;
+    color: black;
+    background-color: white;
+    padding: 50px;
+}
+
